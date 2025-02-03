@@ -1,0 +1,16 @@
+python test.py --weight "$1/v1/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v1.csv" --type 1 --batch_size 256
+python test.py --weight "$1/v1/sakt_model_last.pt" -d "$2" -o "$3/sub_sakt_model_last_v1.csv" --type 1 --batch_size 256
+python test.py --weight "$1/v1_pseudo/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v1_pseudo.csv" --type 1 --batch_size 256
+python test.py --weight "$1/v1_pseudo/sakt_model_last.pt" -d "$2" -o "$3/sub_sakt_model_test_v1_pseudo.csv" --type 1 --batch_size 256
+python test.py --weight "$1/v2/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v2.csv" --type 2 --batch_size 256
+python test.py --weight "$1/v2/sakt_model_last.pt" -d "$2" -o "$3/sub_sakt_model_last_v2.csv" --type 2 --batch_size 256
+python test.py --weight "$1/v2_pseudo/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v2_pseudo.csv" --type 2 --batch_size 256
+python test.py --weight "$1/v2_pseudo/sakt_model_last.pt" -d "$2" -o "$3/sub_sakt_model_last_v2_pseudo.csv" --type 2 --batch_size 256
+python test.py --weight "$1/v3/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v3.csv" --type 3 --batch_size 256
+python test.py --weight "$1/v3/sakt_model_last.pt" -d "$2" -o "$3/sub_sakt_model_last_v3.csv" --type 3 --batch_size 256
+python test.py --weight "$1/v5/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v5.csv" --type 5 --batch_size 256
+python test.py --weight "$1/v5_pseudo/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v5_pseudo.csv" --type 5 --batch_size 256
+python test.py --weight "$1/v6/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v6.csv" --type 6 --batch_size 256
+python test.py --weight "$1/v6_pseudo/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v6_pseudo.csv" --type 6 --batch_size 256
+python test.py --weight "$1/v6_with_adam/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v6_adam.csv" --type 6 --batch_size 256
+python test.py --weight "$1/v7/sakt_model.pt" -d "$2" -o "$3/sub_sakt_model_v7.csv" --type 7 --batch_size 256
