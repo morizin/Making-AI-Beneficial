@@ -160,4 +160,5 @@ python3 ensemble.py --sub_dir ./sub_and_weights/subs -d ./data/ -o final_output.
 - This solution is based on the **SAINT (Sequential Attention-based Interaction Network for Knowledge Tracing)** model.
 - Special thanks to the **competition organizers** and the **open-source community** for providing valuable resources and tools.
 
-Thank you for using this repository! If you have any questions or suggestions, feel free to open an issue or reach out.
+Thank you for using this repository! If you have any questions or suggestions, feel free to open an issue or reach out. Good luck with your projects!
+
